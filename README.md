@@ -22,13 +22,13 @@
 * git init
 * git add *
 * git commit -m "commitMessage"
-* git branch -M master
+* git branch -M main
 * git add remote origin https://github.com/username/YourRepository.git
-* git push -u origin master
+* git push -u origin main
 
 # Github Update of Repo
 * git add * (or single file which is updated)
 * git commit -m "commit Message"
-* git push -u origin master
+* git push -u origin main
 
 
