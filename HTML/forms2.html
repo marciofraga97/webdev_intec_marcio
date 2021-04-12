@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper{
+            padding: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <form action="post.php" method="POST">
+            <label>Your email</label>
+            <input type="text" value="" placeholder="Email"><br>
+            <label>Your message</label>
+            <input type="text" value="" placeholder="Message"><br>
+            <input type="submit" value="send"/>
+        </form>
+        <form action="postdata.php">
+            <fieldset>
+                <legend>
+                    Login section
+                </legend>
+                <input type="text" placeholder="username" required> <br>
+                <input type="password" placeholder="password" required><br>
+                <label>City</label>
+                <select>
+                    <option value="Aalst">Aalst</option>
+                    <option value="Brussels">Brussels</option>
+                </select>
+                <label>Permission</label>
+                <select>
+                    <option value="admin">Admin</option>
+                    <option value="user">User</option>
+                </select><br>
+                <input type="hidden" value="hiddenvalueuniquekey"> <!--Auto-generates each keyvalue each time the website refreshes. It is commonly used to secure the website against dangerous hackers.-->
+                <input type="submit" value="Send it!">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
