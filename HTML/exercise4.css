@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "TropicalAsian";
+  src: url(./fonts/TropicalAsianDemoRegular-11V0.ttf);
+}
+@font-face {
+  font-family: "Patahola";
+  src: url(./fonts/Patahola-X3EjK.ttf);
+}
+@font-face {
+  font-family: "Pineapple";
+  src: url(./fonts/PineappleDemo-3oGz.ttf);
+}
+body {
+  text-align: center;
+  background-image: url(./img/Summer-Palm-Tree-Border-PNG.png),
+    url(./img/background-2413081_1920.jpg);
+  background-position: none, top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body p {
+  font-family: Patahola;
+  font-size: 18px;
+}
+.navbar ul {
+  display: inline-flex;
+  list-style-type: none;
+  margin-right: 1em;
+}
+.navbar li {
+  margin-right: 1em;
+  font-size: 25px;
+  background-image: url(./img/wood-591631_1920.jpg);
+  padding: 0.5em;
+  box-shadow: 2px 2px 5px black;
+}
+.navbar a:link {
+  font-family: Pineapple;
+  text-decoration: none;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: rgb(99, 59, 22);
+  color: rgb(255, 244, 194);
+}
+.navbar a:visited {
+  font-family: Pineapple;
+  text-decoration: none;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: rgb(99, 59, 22);
+  color: rgb(255, 244, 194);
+}
+.navbar a:hover {
+  font-family: Pineapple;
+  text-decoration: none;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: rgb(99, 59, 22);
+  color: white;
+}
+.navbar a:active {
+  font-family: Pineapple;
+  text-decoration: none;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: rgb(99, 59, 22);
+  color: peru;
+}
+h1 {
+  font-family: TropicalAsian;
+  font-size: 72px;
+  color: darkgreen;
+  text-shadow: 1px 3px #ffc400;
+}
+h4 {
+  font-family: TropicalAsian;
+  font-size: 38px;
+  color: brown;
+}
+.textbox_1 {
+  background-color: rgb(255, 231, 170);
+  padding: 1em;
+  width: 50%;
+  margin: 0 auto;
+  border-width: 10px;
+  border-style: solid;
+  border-image: url(./img/Vintage\ paper\ stock\ image_\ Image\ of\ vintage\,\ word\,\ time\ -\ 1676995.jfif)
+    11 11 round;
+}
+article img {
+  margin: 10px;
+  border-image: url(./img/wood-591631_1920.jpg) 1 1 round;
+  border-style: solid;
+  border-width: 5px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: khaki; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: peru; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: brown; 
+  }

@@ -1,0 +1,28 @@
+body {
+  background-image: url(./img/cinema-64154_1920_edited.png);
+  background-image: linear-gradient();
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.header{
+   overflow: hidden;
+   background-color: black ;
+   padding: 5px 10px;
+}
+.description {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.genres {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ul {
+  list-style-type: none;
+  background-color: rgb(0, 162, 255);
+}
