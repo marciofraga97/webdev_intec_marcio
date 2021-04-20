@@ -1,0 +1,179 @@
+@font-face {
+  font-family: SunFont;
+  src: url(./fonts/Patahola-X3EjK.ttf);
+}
+@keyframes sky {
+  0% {background-color: rgb(255, 187, 0);}
+  20% {background-color: skyblue;}
+  40% {background-color: cornflowerblue;}
+  55% {background-color: orange;}
+  62% {background-color: darkorange;}
+  68% {background-color: darkblue;}
+  70% {background-color: navy;}
+  85% {background-color: navy;}
+  87% {background-color: navy;}
+  89% {background-color: navy;}
+  100% {background-color: rgb(255, 187, 0);}
+}
+@keyframes sun {
+  0% {opacity: 100%; left: 100px; bottom: 100px; transform: rotate(360deg);}
+  20% {opacity: 100%;}
+  40% {opacity: 100%; left: 530px; bottom: 400px;}
+  55% {opacity: 100%;}
+  59% {opacity: 100%;}
+  62% {opacity: 100%; left: 1000px; bottom: 100px;}
+  68% {opacity: 0%; left: 1000px;}
+  70% {opacity: 0%;}
+  85% {opacity: 0%;}
+  87% {opacity: 0%;}
+  89% {opacity: 0%; left: 100px;}
+  100% {opacity: 100%; left: 100px; bottom: 100px; transform: rotate(0deg);}
+}
+@keyframes moon {
+  0% {opacity: 0%; transform: rotate(360deg);}
+  20% {opacity: 0%;}
+  40% {opacity: 0%;}
+  55% {opacity: 0%;}
+  62% {opacity: 0%;}
+  68% {opacity: 100%; left: 100px;}
+  70% {opacity: 100%;}
+  85% {opacity: 100%;}
+  87% {opacity: 100%;}
+  89% {opacity: 100%; left: 1000px;}
+  100% {opacity: 0%; left: 1000px; transform: rotate(0deg);}
+}
+@keyframes sunrise {
+  0% {opacity: 100%;}
+  20% {opacity: 0%;}
+  40% {opacity: 0%;}
+  55% {opacity: 0%;}
+  62% {opacity: 0%;}
+  68% {opacity: 0%;}
+  70% {opacity: 0%;}
+  85% {opacity: 0%;}
+  87% {opacity: 0%;}
+  89% {opacity: 0%;}
+  100% {opacity: 100%;}
+}
+@keyframes midday {
+  0% {opacity: 0%;}
+  20% {opacity: 100%;}
+  40% {opacity: 100%;}
+  55% {opacity: 0%;}
+  62% {opacity: 0%;}
+  68% {opacity: 0%;}
+  70% {opacity: 0%;}
+  85% {opacity: 0%;}
+  87% {opacity: 0%;}
+  89% {opacity: 0%;}
+  100% {opacity: 0%;}
+}
+@keyframes sunset {
+  0% {opacity: 0%;}
+  20% {opacity: 0%;}
+  40% {opacity: 0%;}
+  55% {opacity: 100%;}
+  62% {opacity: 100%;}
+  68% {opacity: 0%;}
+  70% {opacity: 0%;}
+  85% {opacity: 0%;}
+  87% {opacity: 0%;}
+  89% {opacity: 0%;}
+  100% {opacity: 0%;}
+}
+@keyframes night {
+  0% {opacity: 0%;}
+  20% {opacity: 0%;}
+  40% {opacity: 0%;}
+  55% {opacity: 0%;}
+  62% {opacity: 0%;}
+  68% {opacity: 100%;}
+  70% {opacity: 100%;}
+  85% {opacity: 100%;}
+  87% {opacity: 100%;}
+  89% {opacity: 100%;}
+  100% {opacity: 0%;}
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
+#sky {
+  width: 1263px;
+  height: 516px;
+  margin: 0 auto;
+  background-color: cornflowerblue;
+  animation-name: sky;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+#sun {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 0;
+  animation-name: sun;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+#moon {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 0;
+  animation-name: moon;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+#grass {
+  width: 1263px;
+  height: 100px;
+  background-color: green;
+  margin: 0 auto;
+  z-index: 0;
+}
+#sunrise{
+  position:absolute;
+  bottom: 80px;
+  left: 30px;
+  font-family: SunFont;
+  font-size:32px;
+  text-shadow: 0px 1px 3px orange;
+  animation-name: sunrise;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+#midday{
+  position:absolute;
+  bottom: 80px;
+  left: 30px;
+  font-family: SunFont;
+  font-size:32px;
+  text-shadow: 0px 1px 3px yellow;
+  animation-name: midday;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+#sunset{
+  position:absolute;
+  bottom: 80px;
+  left: 30px;
+  font-family: SunFont;
+  font-size:32px;
+  text-shadow: 0px 1px 3px gold;
+  animation-name: sunset;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+#night{
+  position:absolute;
+  bottom: 80px;
+  left: 30px;
+  font-family: SunFont;
+  font-size:32px;
+  color:honeydew;
+  text-shadow: 0px 1px 3px white;
+  animation-name: night;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
