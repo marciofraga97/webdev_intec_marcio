@@ -1,0 +1,28 @@
+Media Query
+In CSS: @media
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+Example:
+@media screen and (min-width:300px){
+    body{
+        background-color: #FFFFF
+    }
+}
+@media screen and (min-width:500px){
+    body{
+        background-color: #FFFFF
+    }
+}
+@media screen and (min-width:700px){
+    body{
+        background-color: #FFFFF
+    }
+}
+@media screen and (min-width:900px){
+    body{
+        background-color: #FFFFF
+    }
+    h1{
+        color: #FFFFF
+        font-size: xx
+    }
+}

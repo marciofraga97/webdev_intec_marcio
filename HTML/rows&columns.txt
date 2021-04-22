@@ -1,0 +1,23 @@
+1 rem = 10px
+2 rem = 20px
+
+box-sizing: border-box;
+
+@media screen and (max-width:414px) = iPhone size
+classname > div{
+    float:none
+    margin:xx
+    width:xx
+}
+iPhone 6, 7, 8+ = 375px
+iPad = 768px
+S Galaxy Fold = 280px
+
+Grid container:
+https://css-tricks.com/almanac/properties/g/grid-rows-columns/#:~:text=The%20fr%20unit%20can%20be,content%2Dbased%20columns%2Frows.
+
+grid-gap: space between the grid lines, works similar like the <padding> element
+grid-cell: a piece of a cell inside table
+grid-line: the lines that create a grid 
+grid-container: the container's line
+grid-area: any selected cell and turns into one group
