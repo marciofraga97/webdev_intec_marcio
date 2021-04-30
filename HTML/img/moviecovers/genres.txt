@@ -1,0 +1,11 @@
+MAX 15
+
+- Action (15)    v
+- Comedy (15)    v
+- Drama (15)     v
+- Horror (15)    v
+- Romance (15)   v
+- Thriller (15)  v
+- Western (15)   v
+- Family (15)    v
+- Kids (15)      v
