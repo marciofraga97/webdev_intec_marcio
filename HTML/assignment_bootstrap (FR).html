@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <title>Playwatcher</title>
     <!-- Required meta tags -->
@@ -96,20 +96,20 @@
             <a class="nav-link text-primary text-center" href="#">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-primary text-center" href="#">Movies</a>
+            <a class="nav-link text-primary text-center" href="#">Films</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-primary text-center" href="#">Shows</a>
+            <a class="nav-link text-primary text-center" href="#">Séries</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-primary text-center" id="dropdownId" href="none" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Genres</a>
+            <a class="nav-link dropdown-toggle text-primary text-center" id="dropdownId" href="none" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catégories</a>
             <div class="dropdown-menu" aria-labelledby="dropdownId">
               <a class="dropdown-item text-primary" href="#">Action</a>
-              <a class="dropdown-item text-primary" href="#">Comedy</a>
-              <a class="dropdown-item text-primary" href="#">Drama</a>
-              <a class="dropdown-item text-primary" href="#">Family</a>
-              <a class="dropdown-item text-primary" href="#">Horror</a>
-              <a class="dropdown-item text-primary" href="#">Kids</a>
+              <a class="dropdown-item text-primary" href="#">Comedie</a>
+              <a class="dropdown-item text-primary" href="#">Drame</a>
+              <a class="dropdown-item text-primary" href="#">En Famille</a>
+              <a class="dropdown-item text-primary" href="#">Horreur</a>
+              <a class="dropdown-item text-primary" href="#">Enfants</a>
               <a class="dropdown-item text-primary" href="#">Romance</a>
               <a class="dropdown-item text-primary" href="#">Thriller</a>
               <a class="dropdown-item text-primary" href="#">Western</a>
@@ -117,26 +117,26 @@
           </li>
           <hr>
           <li class="nav-item">
-              <button type="button" class="btn btn-primary btn-sm btn-block mt-1" data-toggle="modal" data-target="#loginModal"><a>Sign in</a></button>
+              <button type="button" class="btn btn-primary btn-sm btn-block mt-1" data-toggle="modal" data-target="#loginModal"><a>S'identifier</a></button>
           <li class="nav-item">
-              <button type="button" class="btn btn-warning btn-sm btn-block mt-1" data-toggle="modal" data-target="#subscribeModal"><a>Subscribe</a></button>
+              <button type="button" class="btn btn-warning btn-sm btn-block mt-1" data-toggle="modal" data-target="#subscribeModal"><a>S'abonner</a></button>
           </li>
         </ul>
         <form class="form-inline mr-2 my-lg-0" autocomplete="off">
           <div class="form-group">
             <label for="searchId"></label>
-            <input type="text" name="" type="text" class="form-control form-control-sm mr-sm-2 form-block" placeholder="Search for movies...">
+            <input type="text" name="" type="text" class="form-control form-control-sm mr-sm-2 form-block" placeholder="Rechercher des films...">
             <button type="submit" class="btn btn-sm bg-primary col-xs-1"><img src="https://img.icons8.com/android/24/000000/search.png" width="17px"/></button></small>
           </div>
         </form>
         <ul>
         <div class="dropdown show mt-3">
           <a class="btn btn-dark dropdown-toggle bg-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="language" style="text-decoration: none;">EN</span>
+            <span class="language" style="text-decoration: none;">FR</span>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item text-primary" href="./assignment_bootstrap (FR).html">FR</a>
             <a class="dropdown-item text-primary" href="./assignment_bootstrap (NL).html">NL</a>
+            <a class="dropdown-item text-primary" href="./assignment_bootstrap.html">EN</a>
           </div>
         </div>
        </ul>
@@ -146,7 +146,7 @@
       <div class="modal-dialog modal-dialog-centered modal-xl">
           <div class="modal-content shadow" style="background-color: black">
               <div class="modal-header">
-                  <h5 class="modal-title text-light">Sign Up</h5>
+                  <h5 class="modal-title text-light">S'identifier</h5>
                   <button type="button" class="close" data-dismiss="modal"><img src="https://img.icons8.com/ios-glyphs/30/4a90e2/macos-close.png"/></button>
               </div>
               <div class="modal-body row">
@@ -154,31 +154,31 @@
                   <div class="form-group">
                     <div class="row">
                       <div class="col-md-6">
-                        <input type="text" class="form-control" id="fnameform" placeholder="First Name">
+                        <input type="text" class="form-control" id="fnameform" placeholder="Prénom">
                       </div>
                       <div class="col-md-6">
-                        <input type="text" class="form-control" id="lnameform" placeholder="Last Name">
+                        <input type="text" class="form-control" id="lnameform" placeholder="Nom">
                       </div>
                     </div>
                     <br>
                     <div class="row">
                       <div class="col-md-4">
                         <input type="radio" id="male" name="gender" value="male">
-                        <label for="male" class="text-light">Male</label>
+                        <label for="male" class="text-light">Homme</label>
                       </div>
                       <div class="col-md-4">
                         <input type="radio" id="female" name="gender" value="female">
-                        <label for="female" class="text-light">Female</label>
+                        <label for="female" class="text-light">Femme</label>
                       </div>
                       <div class="col-md-4">
                         <input type="radio" id="other" name="gender" value="other">
-                        <label for="other" class="text-light">Other</label>
+                        <label for="other" class="text-light">Autre</label>
                       </div>
                     </div>
                     <br>
                     <div class="row">
                       <div class="col-md-6">
-                        <input type="text" class="form-control" id="userform" placeholder="Username">
+                        <input type="text" class="form-control" id="userform" placeholder="Nom d'utilisateur">
                       </div>
                       <div class="col-md-6">
                         <input type="email" class="form-control" id="emailform" placeholder="E-mail">
@@ -187,43 +187,43 @@
                     <br>
                     <div class="row">
                       <div class="col-md-6">
-                        <input type="password" class="form-control" id="fnameform" placeholder="Password">
+                        <input type="password" class="form-control" id="fnameform" placeholder="mot-de-passe">
                       </div>
                       <div class="col-md-6">
-                        <input type="password" class="form-control" id="lnameform" placeholder="Confirm Password">
+                        <input type="password" class="form-control" id="lnameform" placeholder="Confirmer mot-de-passe">
                       </div>
                     </div>
                     <br>
                     <input type="checkbox" id="termsandconditions" name="checkboxlogin" value="termsandconditions">
-                    <label for="termsandservices" class="text-light">I've read the <a href="https://www.lipsum.com/">Terms and Conditions</a> and agree with it.</label>
+                    <label for="termsandservices" class="text-light">J'ai li les <a href="https://www.lipsum.com/">Termes et Conditions</a> et j'en suis d'accord.</label>
                     <br>
                     <input type="checkbox" id="newsfeed" name="checkboxlogin" value="newsfeed">
-                    <label for="newsfeed" class="text-light">I want to receive news and recommended movies in my mailbox.</label>
+                    <label for="newsfeed" class="text-light">Je veux recevoir des nouvelles et des films recommendés sur mon mailbox.</label>
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <h4 class="text-primary">Already a member?</h4>
-                  <p class="text-light">If you've already registred, type your Playwatcher login data in this section.</p>
+                  <h4 class="text-primary">Déjà un membre?</h4>
+                  <p class="text-light">Si vous avez déjà inscris, écrivez votre données de compte Playwatcher sur cette section.</p>
                   <div class="form-group">
                     <div class="row">
                     <div class="col-md-6">
-                      <input type="email" type="text" class="form-control" id="fnameform" placeholder="E-mail or username">
+                      <input type="email" type="text" class="form-control" id="fnameform" placeholder="E-mail ou nom d'utilisateur">
                     </div>
                     <div class="col-md-6">
-                      <input type="password" class="form-control" id="lnameform" placeholder="Password">
+                      <input type="password" class="form-control" id="lnameform" placeholder="mot-de-passe">
                     </div>
-                    <button type="submit" class="btn btn-primary mt-2 ml-3">Login</button>
+                    <button type="submit" class="btn btn-primary mt-2 ml-3">Connexion</button>
                   </div>
                   <br>
-                  <p class="text-light">Or login with your <b>Facebook</b> or <b>Google</b> account.</p>
-                  <a type="button" class="btn btn-primary btn-block" id="facebook" href="https://www.facebook.com/">Login with Facebook</a>
-                  <a type="button" class="btn btn-primary btn-block" id="google" href="https://myaccount.google.com/">Login with Google</a>
+                  <p class="text-light">Ou alors, connectez-vour sur votre compte <b>Facebook</b> ou <b>Google</b>.</p>
+                  <a type="button" class="btn btn-primary btn-block" id="facebook" href="https://www.facebook.com/">Connexion avec Facebook</a>
+                  <a type="button" class="btn btn-primary btn-block" id="google" href="https://myaccount.google.com/">Connexion avec Google</a>
                 </div>
               </div>
               </div>
               <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                  <button type="button" class="btn btn-primary">Sign Up</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                  <button type="button" class="btn btn-primary">S'inscrire</button>
               </div>
           </div>
       </div>
@@ -232,7 +232,7 @@
       <div class="modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content" style="background-color: black;">
           <div class="modal-header">
-            <h5 class="modal-title text-light" id="exampleModalLabel">Choose your subscription plan</h5>
+            <h5 class="modal-title text-light" id="exampleModalLabel">Choisissez votre plan d'abonnement:</h5>
             <button type="button" class="close" data-dismiss="modal"><img src="https://img.icons8.com/ios-glyphs/30/4a90e2/macos-close.png"/></button>
           </div>
           <div class="modal-body">
@@ -240,44 +240,44 @@
               <div class="col-md-4">
                 <div class="card" style="background-color: black; border-width: 1px; border-color: white;">
                   <div class="card-body">
-                    <h4 class="text-center text-uppercase text-light" style="letter-spacing: 2px;"><b>Free trial</b></h4>
-                    <div style="display: block; height: 1px; border: 0; border-top: 1px solid white; margin: 1em 0; padding: 0;padding-bottom:28px"></div>
-                    <h3 class="text-light text-center">Free pass for a month of experience!</h3>
-                    <p class="text-light text-center" style="font-size: 15px; padding-bottom:28px">Only usable for once if the user creates a Playwatcher account.</p>
+                    <h4 class="text-center text-uppercase text-light" style="letter-spacing: 2px;"><b>Essai gratuit</b></h4>
+                    <div style="display: block; height: 1px; border: 0; border-top: 1px solid white; margin: 1em 0; padding: 0;padding-bottom:42px"></div>
+                    <h3 class="text-light text-center">Entrée gratuit pour un mois d'expérience!</h3>
+                    <p class="text-light text-center" style="font-size: 15px; padding-bottom:42px">Uniquement utilisable pour une fois si l'utilisateur a créé un compte Playwatcher.</p>
                     <div style="display: block; height: 1px; border: 0; border-top: 1px solid white; margin: 1em 0; padding: 0;"></div>
-                    <button type="button" href="" class="btn btn-block text-light" style="background-color: black; border-width: 1px; border-color: white;">Choose this plan</button>
+                    <button type="button" href="" class="btn btn-block text-light" style="background-color: black; border-width: 1px; border-color: white;">Choisir ce plan</button>
                   </div>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="card bg-primary">
                   <div class="card-body">
-                    <h4 class="text-center text-uppercase" style="letter-spacing: 2px;"><b>Monthly Pass</b></h4>
+                    <h4 class="text-center text-uppercase" style="letter-spacing: 2px;"><b>Abonnement mensuel</b></h4>
                     <div style="display: block; height: 1px; border: 0; border-top: 1px solid black; margin: 1em 0; padding: 0;padding-bottom:28px"></div>
-                    <h1 class="text-center display-4"><b>£6,96</b></h1>
-                    <p class="text-center" style="font-size: 15px; padding-bottom:28px">With this pass, you can access to all Premium movies and shows.</p>
+                    <h1 class="text-center display-4"><b>€7,99</b></h1>
+                    <p class="text-center" style="font-size: 15px; padding-bottom:28px">Avec ce pass, vous pouvez accéder à tous les films et séries Premium.</p>
                     <div style="display: block; height: 1px; border: 0; border-top: 1px solid black; margin: 1em 0; padding: 0;""></div>
-                    <button type="button" href="" class="btn btn-block btn-primary" style="border-width: 1px; border-color: black;">Choose this plan</button>
+                    <button type="button" href="" class="btn btn-block btn-primary" style="border-width: 1px; border-color: black;">Choisir ce plan</button>
                   </div>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="card bg-warning">
                   <div class="card-body">
-                    <h4 class="text-center"><b class="text-uppercase" style="letter-spacing: 2px;">Annual Pass</b>&nbsp;<span class="badge bg-danger text-light" style="font-size:12px">Recommended</span></h4>
+                    <h4 class="text-center"><b class="text-uppercase" style="letter-spacing: 2px;">Abonnement annuel</b>&nbsp;<span class="badge bg-danger text-light" style="font-size:12px">Recommendé</span></h4>
                     <div style="display: block; height: 1px; border: 0; border-top: 1px solid black; margin: 1em 0; padding: 0;"></div>
-                    <h1 class="display-4 text-center"><b>£34,85</b><span class="badge bg-danger text-light" style="font-size:12px">Grand offer!</span></h1>
-                    <h1 class="text-center text-muted"><del>£60,99</del></h1>
-                    <p class="text-center" style="font-size: 15px;">With this pass, you can access to all Premium movies and shows.</p>
+                    <h1 class="display-4 text-center"><b>€39,99</b><span class="badge bg-danger text-light" style="font-size:12px">Grande offre!</span></h1>
+                    <h1 class="text-center text-muted"><del>€69,99</del></h1>
+                    <p class="text-center" style="font-size: 15px;">Avec ce pass, vous pouvez accéder à tous les films et séries Premium.</p>
                     <div style="display: block; height: 1px; border: 0; border-top: 1px solid black; margin: 1em 0; padding: 0;"></div>
-                    <button type="button" href="" class="btn btn-block btn-warning" style="border-width: 1px; border-color: black;">Choose this plan</button>
+                    <button type="button" href="" class="btn btn-block btn-warning" style="border-width: 1px; border-color: black;">Choisir ce plan</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
           </div>
         </div>
       </div>
@@ -286,7 +286,7 @@
     <div class="container-fluid">
       <div class="row pb-4" style="background-image: url(./img/cinema-64154_1920_edited.png);padding-top:100px">
         <div class="col-md-9 pl-5 mt-3">
-          <h1 class="text-white">Watch a tons of <b>movies</b> and <b>series</b> in the largest library with over <b>10 000 movies</b>!</p></h1>
+          <h1 class="text-white">Regardez une tonne de <b>films</b> et de <b>séries</b> dans la plus grande bibliothèque avec plus de <b>10 000 films!</b></p></h1>
         </div>
         <div class="col-md-2">
           <img src="./img/Apple-Mac-Computer-Screen-PNG.png" style="width:200px" class="mx-auto d-block">
@@ -296,7 +296,7 @@
     </header>
     <hr>
     <div class="border-0 rounded bg-primary m-3 p-1">
-      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Latest on Playwatcher</h4>
+      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Derniers sur Playwatcher</h4>
     </div>
     <div class="container-fluid">
       <div class="scrolling-wrapper row flex-row flex-nowrap">
@@ -304,8 +304,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_deserted.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Deserted</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Déserté</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -313,8 +313,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_the_silver_names.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>The Silver Names</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Noms Ciblés</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -322,8 +322,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_women_power.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Women Power</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Pouvoir Des Femmes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -331,8 +331,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_frogger.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Frogger</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Frogger, le Roi Grenouille</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -340,8 +340,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_bleeding_at_history.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Bleeding at History</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Sang de l'Histoire</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -349,8 +349,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_each_year.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Each Year</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light mt-1" style="font-size:12px"><b>Chaque Année, Une Autre Histoire</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -358,8 +358,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_hunting_the_future.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Hunting the Future</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Chasser le Futur</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -368,7 +368,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_bramford_007.jpg" style="width:168px"></a>
               <p class="card-text text-light"><b>Bramford 007</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -376,8 +376,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_future_force.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Future Force</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Force Future</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -385,8 +385,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_rise.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Rise</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Monte</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -394,8 +394,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_i_got_nothing_to_say.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>I've Got Nothing To Say</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>J'ai Rien à Dire Moi</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -403,8 +403,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_invited_by_the_end.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Invited By The End</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Invité à la fin</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -412,8 +412,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_mime_crimes.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Mime Crimes</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Crimes Des Mimes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -421,8 +421,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_nothing_but_trouble.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Nothing But Trouble</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Rien Que Des Problèmes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -431,21 +431,21 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_promotion.jpg" style="width:168px"></a>
               <p class="card-text text-light"><b>Promotion</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
         <div class="col-sm-2px">
           <div class="card text-center bg-primary" style="width:250px; height:361px">
             <div class="card-body">
-              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>See more</b></a>
+              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>Voir plus</b></a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="border-0 rounded bg-primary m-3 p-1">
-      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Recently Added</h4>
+      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Récemment ajouté</h4>
     </div>
     <div class="container-fluid">
       <div class="scrolling-wrapper row flex-row flex-nowrap">
@@ -453,8 +453,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_fairytale.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Fairytale</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Contes de Fées</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -462,8 +462,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_the_story_of_us.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Story of Us</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Notre Histoire</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -471,8 +471,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_the_silver_names.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>The Silver Names</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Noms Ciblés</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -480,8 +480,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_minimalist.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Minimalist</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Minimaliste</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -489,8 +489,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_werewolf.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Werewolf</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Loup-Garou</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -498,8 +498,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_women_power.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Women Power</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Pouvoir Des Femmes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -507,8 +507,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_timeless_space.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Timeless Space</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Espace Intemporel</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -516,8 +516,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_wife_type.jpg" style="width:195px"></a>
-              <p class="card-text text-light"><b>Wife Type</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Type d'Épouse</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -525,8 +525,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_space_paradox.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Space Paradox</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Paradox de l'Éspace</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -534,8 +534,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_just_another_natural_love.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Just Another Natural Love</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light mt-1" style="font-size:14px"><b>Juste Un Autre Amour Naturel</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -543,8 +543,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_after.jpg" style="width:179px"></a>
-              <p class="card-text text-light"><b>After</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Ensuite</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -552,8 +552,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_after.jpg" style="width:179px"></a>
-              <p class="card-text text-light"><b>After</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Ensuite</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -561,8 +561,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_nowhere_to_run.jpg" style="width: 168px"></a>
-              <p class="card-text text-light"><b>Nowhere To Run</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Nulle Part Où Courir</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -570,22 +570,22 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_abyss.jpg" style="width: 200px"></a>
-              <p class="card-text text-light"><b>Abyss</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Abysse</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
         <div class="col-sm-2px">
           <div class="card text-center bg-primary" style="width:250px; height:361px">
             <div class="card-body">
-              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>See more</b></a>
+              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>Voir plus</b></a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="border-0 rounded bg-primary m-3 p-1">
-      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Most Watched on Playwatcher</h4>
+      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Les Plus Regardés sur Playwatcher</h4>
     </div>
     <div class="container-fluid">
       <div class="scrolling-wrapper row flex-row flex-nowrap">
@@ -593,8 +593,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_darkness.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Darkness</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Ténèbres</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -602,8 +602,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_mars_adventure.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Mars Adventure</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Aventure en Mars</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -612,7 +612,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_archer.jpg" style="width:168px"></a>
               <p class="card-text text-light"><b>Archer</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -620,8 +620,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_space_paradox.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Space Paradox</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Paradox de l'Éspace</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -629,8 +629,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_drowning.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Drowning</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Noyade</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -638,8 +638,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_nowhere_to_run.jpg" style="width: 168px"></a>
-              <p class="card-text text-light"><b>Nowhere To Run</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Nulle Part Où Courir</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -647,8 +647,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_secret_doors.jpg" style="width: 168px"></a>
-              <p class="card-text text-light"><b>Secret Doors</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Portes Secrètes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -657,7 +657,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_sirius.jpg" style="width: 168px"></a>
               <p class="card-text text-light"><b>Sirius</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -665,8 +665,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_after.jpg" style="width:179px"></a>
-              <p class="card-text text-light"><b>After</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Ensuite</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -674,8 +674,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_mime_crimes.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Mime Crimes</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Crimes Des Mimes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -683,8 +683,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_astro_traveller.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Astro Traveller</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Voyageur de l'Éspace</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -692,8 +692,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_the_prophecy.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>The Prophecy</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Prophétie</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -701,8 +701,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_deserted.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Deserted</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Déserté</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -710,8 +710,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_torn.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Torn</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Déchirée</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -719,15 +719,15 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_freedom.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Freedom</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Libèrté</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
         <div class="col-sm-2px">
           <div class="card text-center bg-primary" style="width:250px; height:361px">
             <div class="card-body">
-              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>See more</b></a>
+              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>Voir plus</b></a>
             </div>
           </div>
         </div>
@@ -742,8 +742,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_the_silver_names.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>The Silver Names</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Noms Ciblés</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -751,8 +751,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_the_prophecy.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>The Prophecy</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Prophétie</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -760,8 +760,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_gangs.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Gangs</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Gangs</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -769,8 +769,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_freedom.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Freedom</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Libèrté</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -778,8 +778,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_the_swordsman_code.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Swordsman Code</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Code de l'Épéiste</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -788,7 +788,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_archer.jpg" style="width:168px"></a>
               <p class="card-text text-light"><b>Archer</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -796,8 +796,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_sons_of_patriots.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Sons of Patriots</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Fils de Patriotes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -805,8 +805,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_galactic_wars.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Galactic Wars</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Guerres Galactiques</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -814,8 +814,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_space_trilogy_final_frontier.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Space Trilogy</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Trilogie de l'Éspace</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -823,8 +823,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_alien_inavsion.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Alien Invasion</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Invasion Extraterrestre</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -833,7 +833,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_bramford_007.jpg" style="width:168px"></a>
               <p class="card-text text-light"><b>Bramford 007</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -841,8 +841,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_deserted.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Deserted</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Déserté</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -850,8 +850,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_future_force.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Future Force</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Force Future</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -859,8 +859,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_rise.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Rise</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Monte</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -869,21 +869,21 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/action_john_wick_3.jpg" style="width:158px"></a>
               <p class="card-text text-light"><b>John Wick 3</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
         <div class="col-sm-2px">
           <div class="card text-center bg-primary" style="width:250px; height:361px">
             <div class="card-body">
-              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>See more</b></a>
+              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>Voir plus</b></a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="border-0 rounded bg-primary m-3 p-1">
-      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Comedy</h4>
+      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Comedie</h4>
     </div>
     <div class="container-fluid">
       <div class="scrolling-wrapper row flex-row flex-nowrap">
@@ -891,8 +891,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_the_absurdity_of_sex.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Absurdity of Sex</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Absurdité du Sexe</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -900,8 +900,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_hiding_myself.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Hiding Myself</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Cacher Moi-Même</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -909,8 +909,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_sweet_rivalry.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Sweet Rivalry</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Douce Rivalité </b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -918,8 +918,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_cold_boy.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Cold Boy</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Tout les Jours de La Bière</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -927,8 +927,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_naked_painting.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Naked Painting</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Peinture Nue</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -936,8 +936,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_old_geezer.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Old Geezer</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Vieux Type</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -945,8 +945,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_begging_in_the_sun.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Begging In The Sun</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Mendier en Soleil</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -954,8 +954,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_torn.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Torn</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Déchirée</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -963,8 +963,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_the things we do for love.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Things We Do For Love</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light mt-1" style="font-size:11px"><b>Les Choses Qu'On Fait Pour L'Amour</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -972,8 +972,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_staring_at_the_sun.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Staring at the Sun</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Beau Gosses</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -982,7 +982,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_promotion.jpg" style="width:168px"></a>
               <p class="card-text text-light"><b>Promotion</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -990,8 +990,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_nothing_but_trouble.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Nothing But Trouble</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Rien Que Des Problèmes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -999,8 +999,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_mime_crimes.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Mime Crimes</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Crimes Des Mimes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1008,8 +1008,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_invited_by_the_end.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Invited By The End</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Invité à la fin</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1017,22 +1017,22 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/comedy_i_got_nothing_to_say.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>I've Got Nothing To Say</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>J'ai Rien à Dire Moi</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
         <div class="col-sm-2px">
           <div class="card text-center bg-primary" style="width:250px; height:361px">
             <div class="card-body">
-              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>See more</b></a>
+              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>Voir plus</b></a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="border-0 rounded bg-primary m-3 p-1">
-      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Drama</h4>
+      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Drame</h4>
     </div>
     <div class="container-fluid">
       <div class="scrolling-wrapper row flex-row flex-nowrap">
@@ -1040,8 +1040,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_minimalist.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Minimalist</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Minimaliste</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1049,8 +1049,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_women_power.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Women Power</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Pouvoir Des Femmes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1058,8 +1058,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_after.jpg" style="width:179px"></a>
-              <p class="card-text text-light"><b>After</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Ensuite</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1067,8 +1067,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_future_society.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Future Society</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Future Société</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1076,8 +1076,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_the_foreigner.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Foreigner</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Étrengère</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1085,8 +1085,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_the_astronaut.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Astronaut</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Astronaut</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1094,8 +1094,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_checkmate.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Checkmate</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Échec et Mat</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1103,8 +1103,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_the_story_of_castlerock.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Story of Castlerock</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Histoire de Castlerock</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1113,7 +1113,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_sirius.jpg" style="width: 168px"></a>
               <p class="card-text text-light"><b>Sirius</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1121,8 +1121,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_entwined_girl.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Entwined Girl</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Petite Entrelacé</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1130,8 +1130,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_fallen_gift.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Fallen Gift</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Dépendance</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1139,8 +1139,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_lost_flames.jpg" style="width: 168px"></a>
-              <p class="card-text text-light"><b>Last Flames</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Dernières Flammes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1148,8 +1148,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_our_freedom.jpg" style="width: 168px"></a>
-              <p class="card-text text-light"><b>Our Freedom</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Notre Libèrté</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1157,8 +1157,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_travel.jpg" style="width: 168px"></a>
-              <p class="card-text text-light"><b>Travel</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Voyage</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1166,22 +1166,22 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/drama_dark_vision.jpg" style="width: 168px"></a>
-              <p class="card-text text-light"><b>Dark Vision</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Vision Des Noirs</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
         <div class="col-sm-2px">
           <div class="card text-center bg-primary" style="width:250px; height:361px">
             <div class="card-body">
-              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>See more</b></a>
+              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>Voir plus</b></a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="border-0 rounded bg-primary m-3 p-1">
-      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Family</h4>
+      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">En Famille</h4>
     </div>
     <div class="container-fluid">
       <div class="scrolling-wrapper row flex-row flex-nowrap">
@@ -1189,8 +1189,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_fairytale.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Fairytale</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Contes de Fées</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1198,8 +1198,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_timeless_space.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Timeless Space</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Espace Intemporel</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1207,8 +1207,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_astro_traveller.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Astro Traveller</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Voyageur de l'Éspace</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1216,8 +1216,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_galactic_angel.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Galactic Angel</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Ange Galactique</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1225,8 +1225,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_mars_adventure.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Mars Adventure</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Aventure en Mars</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1234,8 +1234,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_the_courage_of_the_hearts.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>The Courage in the Hearts</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light mt-1" style="font-size:12px"><b>Tout les Coeurs Ont De La Courage</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1243,8 +1243,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_every_flames.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Every Flames</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Chaque Flamme</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1252,8 +1252,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_becoming_the_future.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Becoming the Future</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Devenir le Futur</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1261,8 +1261,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_stones_in_the_spirits.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Stones in the Spirits</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Pièrres Dans les Ésprits</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1270,8 +1270,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_ocean_game.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Ocean Game</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Jeux de l'Océan</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1279,8 +1279,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_big_boss.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Big Boss</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Big Boss</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1288,8 +1288,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_secret_doors.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Secret Doors</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Portes Secrètes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1297,8 +1297,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_welcome_to_snowland.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Welcome to Snowland</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Bienvenue sur Snowland</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1306,8 +1306,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_the_mathews_family.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Mathew's Family</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Famille Mathews</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1315,22 +1315,22 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/family_mrsocks_goes_to_court.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Mr. Socks Goes to Court</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light mt-1" style="font-size:14px"><b>Mr. Chaussettes Va au Tribunal</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
         <div class="col-sm-2px">
           <div class="card text-center bg-primary" style="width:250px; height:361px">
             <div class="card-body">
-              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>See more</b></a>
+              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>Voir plus</b></a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="border-0 rounded bg-primary m-3 p-1">
-      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Horror</h4>
+      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Horreur</h4>
     </div>
     <div class="container-fluid">
       <div class="scrolling-wrapper row flex-row flex-nowrap">
@@ -1338,8 +1338,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_werewolf.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Werewolf</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Loup-Garou</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1347,8 +1347,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_after.jpg" style="width:179px"></a>
-              <p class="card-text text-light"><b>After</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Ensuite</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1356,8 +1356,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_nowhere_to_run.jpg" style="width: 168px"></a>
-              <p class="card-text text-light"><b>Nowhere To Run</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Nulle Part Où Courir</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1365,8 +1365,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_darkness.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Darkness</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Ténèbres</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1374,8 +1374,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_dreams.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Dreams</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Des Rêves</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1383,8 +1383,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_the_search.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Search</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Recherche</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1392,8 +1392,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_the_dark_element.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Dark Element</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Élement Obscur</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1401,8 +1401,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_wired.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>W.I.R.E.D.</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Cáblé</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1410,8 +1410,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_dead_inside.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Dead Inside</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Mort à l'Intérieur</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1419,8 +1419,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_drowning.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Drowning</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Noyade</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1428,8 +1428,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_black_mirrors.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Black Mirrors</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Mirroirs Foncés</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1437,8 +1437,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_sinister.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Sinister</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Sinistre</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1447,7 +1447,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_mutation.jpg" style="width:168px"></a>
               <p class="card-text text-light"><b>Mutation</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1455,8 +1455,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_walking_my_nightmares.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Walking My Nightmares</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Marcher Mes Cauchemars</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1464,22 +1464,22 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/horror_shadows_of_light.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Shadows of Light</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Ténèbres de la Lumières</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
         <div class="col-sm-2px">
           <div class="card text-center bg-primary" style="width:250px; height:361px">
             <div class="card-body">
-              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>See more</b></a>
+              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>Voir plus</b></a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="border-0 rounded bg-primary m-3 p-1">
-      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Kids</h4>
+      <h4 class="text-uppercase text-center" style="color:black; letter-spacing: 3px;">Enfants</h4>
     </div>
     <div class="container-fluid">
       <div class="scrolling-wrapper row flex-row flex-nowrap">
@@ -1487,8 +1487,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_thinking_mike.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Thinking Mike</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Mike, le Réfléchisseur</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1497,7 +1497,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_jettronica.jpg" style="width:200px"></a>
               <p class="card-text text-light"><b>Jettronica</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1506,7 +1506,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_giga_luchador.jpg" style="width:200px"></a>
               <p class="card-text text-light"><b>Giga Luchador!</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1514,8 +1514,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_dragon_city.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Dragon City</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Ville des Dragons</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1523,8 +1523,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_crazy_house.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Crazy House</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Maison en Folie</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1532,8 +1532,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_back_to_the_future.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Heroes of the Future</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Héros du Futur</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1541,8 +1541,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_swamp_adventure.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Swamp Adventure</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Aventure dans les Marais</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1550,8 +1550,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_space_surfer.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Legend of Surfer</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Légende de Surfer</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1559,8 +1559,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_higher_self.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Higher Self</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Moi et Mon Supérieur</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1568,8 +1568,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_frogger.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Frogger</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Frogger, le Roi Grenouille</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1577,8 +1577,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_fly_high.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Fly High</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Regarde, Je Vole!</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1586,8 +1586,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_dragon_stories.jpg" style="width:158px"></a>
-              <p class="card-text text-light"><b>Dragon Stories</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Histoires des Dragons</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1595,8 +1595,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_dinosaur_party.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Dinosaur Party</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Fête au Dinosaurs</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1604,8 +1604,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_back_to_school.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Back to School</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Retour à l'École</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1613,15 +1613,15 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/kids_after_school.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>After School</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Aventures Après l'École</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
         <div class="col-sm-2px">
           <div class="card text-center bg-primary" style="width:250px; height:361px">
             <div class="card-body">
-              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>See more</b></a>
+              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>Voir plus</b></a>
             </div>
           </div>
         </div>
@@ -1636,8 +1636,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_the_story_of_us.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Story of Us</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Notre Histoire</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1645,8 +1645,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_wife_type.jpg" style="width:195px"></a>
-              <p class="card-text text-light"><b>Wife Type</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Type d'Épouse</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1654,8 +1654,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_just_another_natural_love.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Just Another Natural Love</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light mt-1" style="font-size:14px"><b>Juste Un Autre Amour Naturel</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1663,8 +1663,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_birth_of_yearning.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Birth of Yearning</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Naissance du Désir</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1672,8 +1672,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_a_woman_in_love.jpg" style="width:177px"></a>
-              <p class="card-text text-light"><b>A Woman in Love</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light mt-1" style="font-size:14px"><b>La Femme en Coup de Foudre</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1681,8 +1681,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_the_only_person.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Only Person</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Seule Personne</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1690,8 +1690,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_playful_lover.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Playful Lover</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Amant Ludique</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1699,8 +1699,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_rising_thorns.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Rising Thorns</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Épines Montantes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1709,7 +1709,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_cinco_de_mayo.jpg" style="width:177px"></a>
               <p class="card-text text-light"><b>Cinco de Mayo</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1717,8 +1717,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_the_invisible_wife.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Invisible Wife</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Épouse Invisible</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1726,8 +1726,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_temptation.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Temptation</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Séduction</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1735,8 +1735,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_reckless_perversion.jpg" style="width:178px"></a>
-              <p class="card-text text-light"><b>Reckless Perversion</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Perversion Imprudente</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1744,8 +1744,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_personal_space.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Personal Space</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Éspace Personnelle</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1753,8 +1753,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_hes_my_toyfriend.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>He's My Toyfriend</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>C'Est Mon Petit Jouet</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1762,15 +1762,15 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/romance_dramatic_love_story.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Dramatic Love Story</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light mt-1" style="font-size:14px"><b>L'Histoire d'Amour Dramatique</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
         <div class="col-sm-2px">
           <div class="card text-center bg-primary" style="width:250px; height:361px">
             <div class="card-body">
-              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>See more</b></a>
+              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>Voir plus</b></a>
             </div>
           </div>
         </div>
@@ -1785,8 +1785,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_the_space.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Space</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Éspace</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1794,8 +1794,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_abyss.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Abyss</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Abysse</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1803,8 +1803,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_the_riots.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Riots</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Émeutes</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1812,8 +1812,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_space_paradox.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Space Paradox</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Paradox de l'Éspace</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1821,8 +1821,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_outbreak_survival.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>After Outbreak Survival</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Survie de L'Éclosion</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1830,8 +1830,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_black_hole.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Black Hole</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Trou Noir</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1839,8 +1839,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_sword.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Sword</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Épée</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1848,8 +1848,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_the_war.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The War Business</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Affaires de Guerre</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1857,8 +1857,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_the_last_primate.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Last Primate</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Dernier Primat</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1866,8 +1866,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_the_last_ice_queen.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Last Ice Queen</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Dernière Reine de Neige</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1875,8 +1875,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_lost_in_space.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Lost In Space</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Perdu dans l'Éspace</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1884,8 +1884,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_bound_to_nature.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Bound to Nature</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Détermination Naturelle</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1893,8 +1893,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_the_warrior.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>The Warrior</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Guerrier</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1902,8 +1902,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_coronaoutbreak.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Corona Outbreak</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Épidémie du Corona</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1911,15 +1911,15 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/thriller_bleeding_at_history.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Bleeding at History</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Le Sang de l'Histoire</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
         <div class="col-sm-2px">
           <div class="card text-center bg-primary" style="width:250px; height:361px">
             <div class="card-body">
-              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>See more</b></a>
+              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>Voir plus</b></a>
             </div>
           </div>
         </div>
@@ -1934,8 +1934,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_growing_in_history.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Growing in History</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Grandir dans l'Histoire</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1943,8 +1943,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_rebels_and_thiefs.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Rebels and Thiefs</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Rebelles et les Voleurs</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1952,8 +1952,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_revenge_of_montana_justice.jpg" style="width:168px"></a>
-              <p class="card-text text-light mt-1" style="font-size:14px"><b>Revenge of Montana Justice</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light mt-1" style="font-size:13px"><b>La Vengeance de Montana Justice</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1962,7 +1962,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_montana_justice.jpg" style="width:168px"></a>
               <p class="card-text text-light"><b>Montana Justice</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1970,8 +1970,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_journey_of_the_river_rock.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Journey of the River Rock</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Journée de River Rock</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1980,7 +1980,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_blackwoods.jpg" style="width:168px"></a>
               <p class="card-text text-light"><b>Blackwoods</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1989,7 +1989,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_rodeo_springs.jpg" style="width:200px"></a>
               <p class="card-text text-light"><b>Rodeo Springs</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -1997,8 +1997,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_seven_angry_men.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Seven Angry Men</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Les Sept Homme Furieux</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -2007,7 +2007,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_rio_bravo.jpg" style="width:178px"></a>
               <p class="card-text text-light"><b>Rio Bravo</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -2015,8 +2015,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_revenge_of_montana_justice.jpg" style="width:168px"></a>
-              <p class="card-text text-light" style="font-size:14px"><b>Once Upon a Time in the West</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light mt-1" style="font-size:14px"><b>Il Était Une Fois dans l'Ouest</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -2024,8 +2024,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_hunting_the_future.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Hunting the Future</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>Chasser le Futur</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -2034,7 +2034,7 @@
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_goldrock.jpg" style="width:168px"></a>
               <p class="card-text text-light"><b>Goldrock</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -2042,8 +2042,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_gold_west.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>Gold West</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>L'Ouest en Or</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -2051,8 +2051,8 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_each_year.jpg" style="width:200px"></a>
-              <p class="card-text text-light"><b>Each Year</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light mt-1" style="font-size:12px"><b>Chaque Année, Une Autre Histoire</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
@@ -2060,15 +2060,15 @@
           <div class="card" style="width:250px ;background-color: black;width:250px; height:361px"">
             <div class="card-body">
               <a href="#"><img class="card-img-top border mb-1" src="img/moviecovers/western_a_journey_home.jpg" style="width:168px"></a>
-              <p class="card-text text-light"><b>A Journey Home</b></p>
-              <a href="#" class="card-link">Watch trailer</a>
+              <p class="card-text text-light"><b>La Journée à la Maison</b></p>
+              <a href="#" class="card-link">Regardez la bande-annonce</a>
             </div>
           </div>
         </div>
         <div class="col-sm-2px">
           <div class="card text-center bg-primary" style="width:250px; height:361px">
             <div class="card-body">
-              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>See more</b></a>
+              <a href="#" class="btn btn-primary" style="padding-top:110px; padding-bottom:119px; padding-left:65px; padding-right:65px; font-size: 30px;"><b>Voir plus</b></a>
             </div>
           </div>
         </div>
@@ -2079,13 +2079,13 @@
       <div class="container-fluid">
         <div class="row pb-4" style="background-image: url(./img/cinema-64154_1920_edited.png);padding-top:40px">
           <div class="col-md-6 pl-5">
-            <h1 class="text-white">Interested?</h1><h4 class="text-white">Join in today to watch <b>high quality movies</b> and <b>series</b> only in seconds for <b>a free month trial</b>!</h4>
-            <button type="button" class="btn btn-primary btn-sm mt-1" data-toggle="modal" data-target="#loginModal"><a>Sign up</a></button>
-            <button type="button" class="btn btn-warning btn-sm mt-1" data-toggle="modal" data-target="#subscribeModal"><a>Subscribe</a></button><br>
+            <h1 class="text-white">Intéressé(e)?</h1><h4 class="text-white">Rejoignez-nous dès aujourd'hui pour regarder des <b>films de haut qualité</b> et <b>séries</b> seulement en quelques secondes pour <b>un mois d'essai gratuit</b>!</h4>
+            <button type="button" class="btn btn-primary btn-sm mt-1" data-toggle="modal" data-target="#loginModal"><a>S'inscrire</a></button>
+            <button type="button" class="btn btn-warning btn-sm mt-1" data-toggle="modal" data-target="#subscribeModal"><a>S'abonner</a></button><br>
           </div>
           <div class="col-md-6 pl-5">
-            <h1 class="text-white">Watch Playwatcher anywhere!</h1>
-              <h4 class="text-white">Playwatcher is available on <b>Play Store</b> and <b>App Store</b>. Download it for <b>free</b>!</h4>
+            <h1 class="text-white">Regardez Playwatcher n'importe où!</h1>
+              <h4 class="text-white">Playwatcher est disponible sur <b>Play Store</b> et <b>App Store</b>. Téléchargez-le <b>gratuitement</b>!</h4>
               <a href="https://play.google.com/store"><img src="./img/get-it-on-google-play-badge.png" style="width: 130px;"></a>&nbsp;<a href="https://www.apple.com/app-store/"><img src="./img/download-on-app-store-png-with-without-wifi-or-data-2000_0.png" style="width: 110px;">
           </div>
         </div>
@@ -2096,82 +2096,82 @@
             <a><img src="./img/playwatcherlogo.png"/></a>
           </div>
           <div class="col-md-2 pl-2">
-            <h5 class="text-primary">Latest on Playwatcher</h5>
+            <h5 class="text-primary">Derniers sur Playwatcher</h5>
             <br>
-            <a href="#"><p class="text-light">Deserted</p></a>
-            <a href="#"><p class="text-light">The Silver Names</p></a>
-            <a href="#"><p class="text-light">Women Power</p></a>
-            <a href="#"><p class="text-light">Frogger</p></a>
-            <a href="#"><p class="text-light">Bleeding at History</p></a>
-            <a href="#"><p class="text-light">Each Year</p></a>
-            <a href="#"><p class="text-light">Hunting the Future</p></a>
+            <a href="#"><p class="text-light">Déserté</p></a>
+            <a href="#"><p class="text-light">Les Noms Ciblés</p></a>
+            <a href="#"><p class="text-light">Le Pouvoir Des Femmes</p></a>
+            <a href="#"><p class="text-light">Frogger, le Roi Grenouille</p></a>
+            <a href="#"><p class="text-light">Le Sang de l'Histoire</p></a>
+            <a href="#"><p class="text-light">Chaque Année, Une Autre Histoire</p></a>
+            <a href="#"><p class="text-light">Chasser le Futur</p></a>
             <a href="#"><p class="text-light">Bramford 007</p></a>
-            <a href="#"><p class="text-primary">More...</p></a>
+            <a href="#"><p class="text-primary">Plus...</p></a>
           </div>
           <div class="col-md-2 pl-2">
-            <h5 class="text-primary">Recently Added</h5>
+            <h5 class="text-primary">Récemment ajouté</h5>
             <br>
-            <a href="#"><p class="text-light">Fairytale</p></a>
-            <a href="#"><p class="text-light">The Story of Us</p></a>
-            <a href="#"><p class="text-light">The Silver Names</p></a>
-            <a href="#"><p class="text-light">Minimalist</p></a>
-            <a href="#"><p class="text-light">Werewolf</p></a>
-            <a href="#"><p class="text-light">Women Power</p></a>
-            <a href="#"><p class="text-light">Timeless Space</p></a>
-            <a href="#"><p class="text-light">Wife Type</p></a>
-            <a href="#"><p class="text-primary">More...</p></a>
+            <a href="#"><p class="text-light">Contes de Fées</p></a>
+            <a href="#"><p class="text-light">Notre Histoire</p></a>
+            <a href="#"><p class="text-light">Les Noms Ciblés</p></a>
+            <a href="#"><p class="text-light">Minimaliste</p></a>
+            <a href="#"><p class="text-light">Loup-Garou</p></a>
+            <a href="#"><p class="text-light">Le Pouvoir Des Femmes</p></a>
+            <a href="#"><p class="text-light">L'Espace Intemporel</p></a>
+            <a href="#"><p class="text-light">Type d'Épouse</p></a>
+            <a href="#"><p class="text-primary">Plus...</p></a>
           </div>
           <div class="col-md-2 pl-2">
-            <h5 class="text-primary">Most Watched on Playwatcher</h5>
+            <h5 class="text-primary">Les Plus Regardés sur Playwatcher</h5>
             <br>
-            <a href="#"><p class="text-light">Darkness</p></a>
-            <a href="#"><p class="text-light">Mars Adventure</p></a>
+            <a href="#"><p class="text-light">Les Ténèbres</p></a>
+            <a href="#"><p class="text-light">L'Aventure en Mars</p></a>
             <a href="#"><p class="text-light">Archer</p></a>
-            <a href="#"><p class="text-light">The Space Paradox</p></a>
-            <a href="#"><p class="text-light">Drowning</p></a>
-            <a href="#"><p class="text-light">Nowhere to Run</p></a>
-            <a href="#"><p class="text-light">Secret Doors</p></a>
+            <a href="#"><p class="text-light">Le Paradox de l'Éspace</p></a>
+            <a href="#"><p class="text-light">La Noyade</p></a>
+            <a href="#"><p class="text-light">Nulle Part Où Courir</p></a>
+            <a href="#"><p class="text-light">Les Portes Secrètes</p></a>
             <a href="#"><p class="text-light">Sirius</p></a>
-            <a href="#"><p class="text-primary">More...</p></a>
+            <a href="#"><p class="text-primary">Plus...</p></a>
           </div>
           <div class="col-md-2 pl-2">
-            <h5 class="text-primary">Genres</h5>
+            <h5 class="text-primary">Catégories</h5>
             <br>
             <a href="#"><p class="text-light">Action</p></a>
-            <a href="#"><p class="text-light">Comedy</p></a>
-            <a href="#"><p class="text-light">Drama</p></a>
-            <a href="#"><p class="text-light">Family</p></a>
-            <a href="#"><p class="text-light">Horror</p></a>
-            <a href="#"><p class="text-light">Kids</p></a>
+            <a href="#"><p class="text-light">Comedie</p></a>
+            <a href="#"><p class="text-light">Drame</p></a>
+            <a href="#"><p class="text-light">En Famille</p></a>
+            <a href="#"><p class="text-light">Horreur</p></a>
+            <a href="#"><p class="text-light">Enfants</p></a>
             <a href="#"><p class="text-light">Romance</p></a>
             <a href="#"><p class="text-light">Thriller</p></a>
             <a href="#"><p class="text-light">Western</p></a>
           </div>
           <div class="col-md-2 pl-2">
-            <h5 class="text-primary">Learn More</h5>
+            <h5 class="text-primary">Savoir plus</h5>
             <br>
-            <a href="#subscribeModal" data-toggle="modal" data-target="#subscribeModal"><p class="text-light">View Plans</p></a>
-            <a href="#"><p class="text-light">About Us</p></a>
-            <a href="#"><p class="text-light">FAQ & Help</p></a>
-            <a href="#"><p class="text-light">Contact Us</p></a>
-            <a href="#"><p class="text-light">Privacy Policy</p></a>
-            <a href="https://www.lipsum.com/"><p class="text-light">Terms of Service</p></a>
+            <a href="#subscribeModal" data-toggle="modal" data-target="#subscribeModal"><p class="text-light">Voir les abonnements</p></a>
+            <a href="#"><p class="text-light">À Propos de Nous</p></a>
+            <a href="#"><p class="text-light">FAQ & l'Aide</p></a>
+            <a href="#"><p class="text-light">Contactez-nous</p></a>
+            <a href="#"><p class="text-light">Politique de Confidentialité</p></a>
+            <a href="https://www.lipsum.com/"><p class="text-light">Termes de Service</p></a>
           </div>
         </div>
         <div class="row pt-4">
           <div class="col-md-7 pl-2">
-            <p class="ml-2 text-light text-center">Follow us on:&nbsp;&nbsp;
+            <p class="ml-2 text-light text-center">Suivez-nous sur:&nbsp;&nbsp;
               <button type="button" class="btn btn-primary btn-sm" id="facebook"><a href="https://www.facebook.com/"><img src="https://img.icons8.com/metro/26/ffffff/facebook.png" style="width:20px; height:20px"/></a></button>
               <button type="button" class="btn btn-primary btn-sm" id="twitter"><a href="https://twitter.com/"><img src="https://img.icons8.com/android/24/ffffff/twitter.png" style="width:20px; height:20px"/></a></button>
               <button type="button" class="btn btn-primary btn-sm" id="youtube"><a href="https://www.youtube.com/"><img src="https://img.icons8.com/material-rounded/24/ffffff/youtube-play.png" style="width:20px; height:20px"/></a></button>
               <button type="button" class="btn btn-primary btn-sm" id="instagram"><a href="https://www.instagram.com/"><img src="https://img.icons8.com/material-rounded/24/ffffff/instagram-new.png" style="width:20px; height:20px"/></a></button></p>
           </div>
           <div class="col-md-5">
-            <p class="text-primary text-center">This site is not real. This is just an exercise to test out Bootstrap.</p>
+            <p class="text-primary text-center">Ce site n'est pas réel. Ceci est juste un exercice pour tester Bootstrap.</p>
           </div>
         </div>
       </div>
-      <p class="text-light text-center"><a href="http://www.intecbrussel.be/"><b>Intec Brussel</b></a> 2021 by Marcio Fraga made with <a href="https://getbootstrap.com/"><b>Bootstrap</b></a>.</p>
+      <p class="text-light text-center"><a href="http://www.intecbrussel.be/"><b>Intec Brussel</b></a> 2021 faite par Marcio Fraga faite avec <a href="https://getbootstrap.com/"><b>Bootstrap</b></a>.</p>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
