@@ -57,16 +57,29 @@ result = number1 <= number2 // The outcome is false because 10 is less than 11 a
 
 result = str1 <= str2 // The outcome is true because both values are strings and i'm--
 
-console.log("Result:",result)
-
 //LOGICAL OPERATORS = Logical operators are used to determine the logic between variables or values.
 
 //And (&&)
 
-
+if(number1 == 3 && (typeof number1) == 'number'){
+    console.log('yes')
+}else{
+    console.log('no')
+} // yes/true - yes/true = yes 
+  // yes/true - no/false = false
+  // is number1 equal to 3? Is number1 a data type?
 
 //Or (||)
 
+if(number1 == 5 || (typeof number1) == 'string'){
+    // true - false = true
+    // false - false = false
+    // false - true = true
+    console.log()
+}
 
 
 //Not (!)
+
+
+console.log("Result:",result)
