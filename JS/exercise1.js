@@ -30,7 +30,7 @@ console.log("Let me introduce myself:",intro,name,p1,age,p2,".")
 
 let p3 = "I studied in"
 let schoolname = "De Wijnpers"
-let schoolplace = " (Leuven)"
+let schoolplace = "Leuven"
 let p4 = "and followed studing"
 let area = "Arts & Graphic Design"
 let p5 = "until I completed my full school career until"
@@ -63,3 +63,21 @@ console.log("E-mail:",mail)
 console.log("Birthdate:",birthday,"/",birthmonth,"/",birthyear)
 console.log("Gender:",gender)
 console.log("Nationality:",nationality)
+
+//Take 2
+
+let linebreak = "------------------------"
+let place = "Jette, Brussels"
+let output = `
+${intro} ${name} ${lastname} ${p1} ${age} ${p2}.\n
+I live in ${place} and ${p3} ${schoolplace} called ${schoolname}.\n
+I studied ${area} at the time ${p5} ${diplomayear}.\n
+${p6} ${course} ${p7} ${eduCenter}.\n
+${title1}\n`
+
+function sayMyName(name){
+    console.log(`Name: ${name}`)
+}
+
+console.log(linebreak)
+console.log(output)
