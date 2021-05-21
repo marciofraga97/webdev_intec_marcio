@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntroToJava</title>
+</head>
+<body>
+    <h2>Javascript in HTML:</h2>
+    <p id="demo">Javascript changes content inside the HTML.</p>
+
+    <!--The element below finds the id="demo" that changes the content thanks to .innerHTML="x" -->
+
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "This is Marcio. Thanks for clicking!"'>Click me!</button>
+
+    <!--Change attributes in HTML-->
+    
+    <p>Javascript can change attribute values. In this case, it changes the value of the src attribute of an image.</p>
+
+    <!--The id="myImage" change the attribute of src being (./blue.png) or (./red.png).-->
+
+    <button onclick='document.getElementById("myImage").src="./blue.png"'>Click for BLUE</button> 
+    <img id="myImage" src="red.png" style="width:200px">
+    <button onclick='document.getElementById("myImage").src="./red.png"'>Click for RED</button>
+
+    <!--Change a style of an HTML-->
+    
+    <p id="demo2">Javascript can change the style of an HTML element.</p>
+
+    <!--The id="demo2" changes the style written in the JS file, in this case, the style of the font size.-->
+
+    <button type="button" onclick='document.getElementById("demo2").style.fontSize="40px"'>Change size</button>
+
+    <!--Hide HTML elements-->
+    
+    <p id="demo3">Javascript can hide HTML elements.</p>
+
+    <!--The id="demo3" hides the text by the command written in JS with the .style.display="none" attribute.-->
+
+    <button type="button" onclick='document.getElementById("demo3").style.display="none"'>Hide me!</button>
+
+    <!--Show HTML elements-->
+    
+    <p id="demo4" style="display:none">Or show HTML elements.</p>
+
+    <!--The id="demo4" shows the text by the command written in JS with the .style.display="block" attribute. You also need to hide the text beforehand within HTML.-->
+
+    <button type="button" onclick='document.getElementById("demo4").style.display="block"'>Show me!</button>
+
+    <!-- .innerHTML output -->
+    
+    <p>What's 10 + 10?</p><p id ="demo5"><!--Here will display the following math answers from outputs.js file.--></p>
+
+    <!--Print HTML pages with window.print() or print()-->
+
+    <button type="button" onclick="print()">Print his page</button>
+
+    <!--Events with onclick-->
+
+    <button onclick='document.getElementById("demo6").innerHTML = Date()'>Show time</button>
+
+    <p id="demo6"></p>
+
+    <!--Now it will change the button too.-->
+
+    <button onclick='this.innerHTML = Date()'>Show time</button>
+
+    <p id="demo6"></p>
+
+    <!--You can also display a function to make his practical.-->
+
+    <button onclick="displayDate()">Show time (made with function)</button>
+
+    <p id="demo6"></p>
+
+    <!--Events wih onmouseover and onmouseout (needs work)-->
+
+    <p id="demo7" onmouseover='document.getElementById("demo7").fontColor("red")' onmouseout='document.getElementById("demo7").fontColor("black")'>This text is red when hovered.</p>
+
+    <!--Events with onkeydown (needs to add a border too)-->
+
+    <div id="demo8"></div>
+    
+    <!--You write everything js related under the tag <script> inside of <body> or <head>. There you can input JS commands to change HTML content. But it's recommended to write externally in a different file.-->
+    <script src="intro_to_java.js"></script> <!--That's why we use src and the js file as an external file. You can also use references as urls of diffeent websites.-->
+    <script src="outputs.js"></script>
+    <script src="events.js"></script>
+</body>
+</html>

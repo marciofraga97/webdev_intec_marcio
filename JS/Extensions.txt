@@ -1,0 +1,4 @@
+- Beautify
+- Community Material Theme / Material Theme / Material Theme Icons
+- HTML Snippets
+- Material Icon Theme
