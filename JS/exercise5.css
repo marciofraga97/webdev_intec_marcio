@@ -1,0 +1,53 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+  button {
+    background-color: rgb(82, 186, 179);
+    border-radius: 6px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    width: 200px;
+    cursor: pointer;
+  }
+  .placeholder {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    display: inline-block;
+    margin: 50px auto;
+    border: 1px solid gray;
+    border-radius: 10px;  
+    font-size:50px;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+  .win {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  .lose{
+    animation-play-state: paused;
+  }
+
+  .stopDice{
+    animation-play-state: paused;
+  }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess</title>
+  </head>
+
+  <body style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+    <h1>Guess the Number!</h1>
+
+    <p>Guess the hidden number between <b>0</b> and <b>1000</b>. You have infinite amount of chances so take your time.</p>
+
+    <div class="form">
+      <label for="guessField">Try a guess: </label><input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Check" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    <script>
+      let randomNumber = Math.floor(Math.random() * 1000) + 1
+      const guesses = document.querySelector(".guesses")
+      const lastResult = document.querySelector(".lastResult")
+      const lowOrHi = document.querySelector(".lowOrHi")
+      const guessSubmit = document.querySelector(".guessSubmit")
+      const guessField = document.querySelector(".guessField")
+      const refresh = document.querySelector(".refresh")
+
+      function checkGuess() {
+        let userGuess = Number(guessField.value)
+
+        if (userGuess === randomNumber) {
+          lastResult.textContent = "Great job! You found the hidden number. Refresh the page to reset."
+          lastResult.style.color = "green"
+          lowOrHi.textContent = ""
+          guessField.disabled = "true"
+          guessSubmit.disabled = "true"
+        } 
+          else {
+          lastResult.textContent = "Try again!"
+          lastResult.style.color = "red"
+          if(userGuess < randomNumber) {
+            lowOrHi.textContent = "Too low!"
+          } else if(userGuess > randomNumber) {
+            lowOrHi.textContent = "Too high!"
+          }
+        }
+        guessField.value = ""
+        guessField.focus()
+      }
+
+      guessSubmit.addEventListener("click", checkGuess)
+    </script>
+  </body>
+</html>
