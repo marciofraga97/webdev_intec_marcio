@@ -1,4 +1,4 @@
-let result
+
 let newDate = new Date("June 01 2021").getTime()
 
 // Timestamp format
@@ -19,7 +19,7 @@ setInterval(function(){
     let displayTime = [hours, mins, secs]
     console.log(displayTime.join(":"), "until June 1st, 2021")
     if (totalTime < 0){
-        clearInterval(setInterval())
+        clearInterval()
         console.log("Countdown finished!")
     }
 }, 1000)
