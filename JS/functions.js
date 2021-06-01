@@ -31,3 +31,19 @@ let person = { // this is an example of a method. These are mostly stored inside
 
 console.log(person)
 console.log(person.fullName())
+
+function functionWithArgs(x, y){ // x & y are function arguments. All of it is permanently undefined.
+    console.log(x * y) // Instead, the function will give the first argument (x) being still undefined, it will multiply with the second argument.
+}
+
+functionWithArgs(5, 2) // if you apply this function and put a dynamic element inside the brackets, it will recognize the parameters.
+// if you put 5 and 2 in the already created function (functionName(number)), it will become 10 because 5(x) * 2(y) = 10
+// if you put 10 and 8, it will become 80 because 10 * 8 = 80
+
+function myLocalScope() {
+
+    // Only change code below this line
+    var myVar = 5 // only visible inside the function. Result: inside myLocalScope 5
+    console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
