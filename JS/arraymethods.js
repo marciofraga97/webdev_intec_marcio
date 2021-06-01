@@ -7,11 +7,13 @@ let students =[
     {id:1, fullname:"John Johnson", age:100, profession:"Police"}
 ]
 
-// push() Method
+// push() Method: takes one or more parameters and "pushes" them onto the end of the array.
 
 numbers.push(10)
 movie_categories.push("Horror")
-// students.push({newStudent})
+
+let newStudent = {id:2, fullname:"Joe Dalton", age:80, profession:"Thief"}
+students.push(newStudent) // newStudent gets pushed inside the students array.
 
 result = numbers
 result = movie_categories
@@ -23,15 +25,19 @@ result = movie_categories.join() // Result: Comedy,Action,Sci-fi,Thriller,Fantas
 result = movie_categories.join("") // Result: ComedyActionSci-fiThrillerFantasyHorror 
 result = movie_categories.join("-") // Result: Comedy-Action-Sci-fi-Thriller-Fantasy-Horror
 
-// pop() Method
+// pop() Method: is used to pop a value off of the end of an array. We can store this popped off value by assigning it to a variable.
 
-result = numbers.pop() //Removes last element of an array. 10 is the last pushed item
-result = numbers
+// In other words, .pop() removes the last element from an array and returns that element.
 
-// shift() Method
+// Any type of entry can be popped off of an array - numbers, strings, even nested arrays.
+
+result = numbers.pop() // Removes last element of an array. 10 is the last pushed item
+result = numbers // 9 is removed
+
+// shift() Method: It works just like .pop(), except it removes the first element instead of the last.
 
 numbers.shift() // Removes first element of an array.
-result = numbers
+result = numbers // 1 is removed
 
 // some() Method
 
@@ -65,15 +71,15 @@ ArrayItself: 2,3,4,5,6,7,8,9
 
 result = numbers.every(everyCallBackFunction) // Result: true if the value is 1, false if the value is more than 1.
 
-// unshift() Method
+// unshift([]) Method: works exactly like .push(), but instead of adding the element at the end of the array, unshift() adds the element at the beginning of the array.
 
-numbers.unshift(-1) /*
+numbers.unshift(0) /*
    Result: [
-    -1, 2, 3, 4, 5,
+    0, 2, 3, 4, 5,
      6, 7, 8, 9
   ] */
-numbers.unshift("hello") // Result:[ 'hello', -1, 2, 3, 4, 5, 6, 7, 8, 9 ]
-numbers.unshift((()=>10)()) // Result: [ 10, 'hello', -1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+numbers.unshift("hello") // Result:[ 'hello', 0, 2, 3, 4, 5, 6, 7, 8, 9 ]
+numbers.unshift((()=>10)()) // Result: [ 10, 'hello', 0, 2, 3, 4, 5, 6, 7, 8, 9 ]
 result = numbers
 
 // map() Method
