@@ -57,6 +57,14 @@ result = number1 <= number2 // The outcome is false because 10 is less than 11 a
 
 result = str1 <= str2 // The outcome is true because both values are strings and i'm--
 
+// Equal value AND equal type (===)
+
+result = number1 === number2 // Result: false ---> Let's say 10 = "10" is true, the result will become false because those two are different data types (number ≠ string).
+
+// Not equal value NOR equal type (!==) 
+
+result = number1 === number2 // Result: true because while thy are both numbers, they are not qual to eachother as values (11 ≠ 10)
+
 //LOGICAL OPERATORS = Logical operators are used to determine the logic between variables or values.
 
 //And (&&)
