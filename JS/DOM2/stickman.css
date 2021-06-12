@@ -1,0 +1,15 @@
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+#stickman {
+    position: absolute !important;
+    transform: scaleX(-1);
+    margin-top: 230px;
+    cursor: pointer;
+    animation: walk 30s infinite;
+}
+
+.stickman.flip {
+    transform: scaleX(1);
+}

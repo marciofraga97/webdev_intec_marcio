@@ -1,0 +1,10 @@
+.container{
+    height: 100vh;
+   }
+   body,html {
+       height: 100%;
+     }
+   
+   .square{
+       width: 5% !important;
+   }

@@ -1,0 +1,16 @@
+body,html{
+    margin:0 !important;
+    padding: 0 !important;
+}
+
+.container-fluid{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.footer {
+    column-count:1 !important
+}
+.card{
+    border-radius: 0 !important;
+}
