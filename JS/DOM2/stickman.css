@@ -2,14 +2,20 @@
     background-color: #ffffff !important;
 }
 
-#stickman {
+.stickman {
     position: absolute !important;
-    transform: scaleX(-1);
     margin-top: 230px;
     cursor: pointer;
-    animation: walk 30s infinite;
 }
 
 .stickman.flip {
-    transform: scaleX(1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.container-fluid{
+    height: 100vh;
+    /* border-left: 100px solid black; */
+    border-width:0 100px 0 100px;
+    border-style: solid;
+    border-image: url('https://images-na.ssl-images-amazon.com/images/I/71owpKt-5NL._AC_SL1500_.jpg') 0% 100% stretch;
 }

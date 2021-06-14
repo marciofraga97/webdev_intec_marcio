@@ -1,3 +1,35 @@
+const todoInput = document.querySelector("#todo")
+const firstCardbody = document.querySelectorAll(".card-body")
+
+firstCardbody.addEventListener("click",addTodo)
+
+const generator = t => document.createElement(t)
+
+/*
+const makeTodo = (title) => {
+    let li = generator("li")
+    li.className =
+    let todoTitle = document.createTextNode(title)
+    li.appendChild(todoTitle)
+    let a = generator ("a")
+    a.className =
+    let i = generator("i")
+    i.className =
+} 
+*/
+
+function addTodo(event){
+    event.preventDefault()
+    //console.log("hello add todo")
+    //console.log(event.target.className)
+    if (event.className == "btn btn-danger"){
+        console.log("add todo click click")
+        console.log(todoInput.value)
+    }
+}
+
+console.log(todoInput.nodeValue,firstCardbody)
+
 var todoList = document.querySelectorAll("li")
 
 function removeItem(){
