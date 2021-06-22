@@ -1,0 +1,50 @@
+.wrapper{
+    height: 100vh !important;
+    
+}
+
+.left{
+    height: 100vh;
+}
+
+.right{
+    background-image: url('http://www.gdcv.co.uk/images/backgrounds/InvestorLoginPage.jpg');
+    background-size: cover;
+    background-position: 100%;
+}
+
+.card{
+    background-color: transparent !important;
+    border-color: white;
+}
+
+.btn{
+    width: 100%;
+    background-color: transparent;
+}
+
+.btn:hover{
+    width: 100%;
+    background-color: transparent;
+}
+
+.btn:active{
+    width: 100%;
+    background-color: transparent;
+}
+
+.fa-lock{
+    font-size: 2rem !important;
+}
+
+.fa-save{
+    font-size: 2rem !important;
+}
+
+input{
+    background-color: #ffffff2b !important;
+    color:white !important
+}
+input::placeholder{
+    color:white !important
+}
