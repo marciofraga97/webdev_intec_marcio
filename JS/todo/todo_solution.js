@@ -9,6 +9,21 @@ const searchUser = document.querySelector("#filter")
 firstCardBody.addEventListener('click', AddTodo)
 secondCardBody.addEventListener('click',RemoveTodo)
 
+const date = new Date()
+const newDate = new Intl.DateTimeFormat("en-GB").format(date)
+
+/*
+All locales:
+
+- en-US: MM-DD-YYYY
+- en-GB: DD-MM-YYYY (mostly we use this)
+- ko-KR: YYYY-MM-DD (Korean)
+- ar-EG: In most Arabic speaking countries uses real Arabic digits. (2012-12-19): ١٩‏/١٢‏/٢٠١٢
+- ja-JP-u-ca-japanese: They use applications that use the Japanese calendar, changing the year based on the [Reiwa era](https://en.wikipedia.org/wiki/Reiwa).
+- ["ban", "id"]: This is used when a language or locale may not be supported. Use navigator.languages inside your console to see your available locales.
+
+*/
+
 function deleteItem(){
 
     document.querySelector('.list-group-item').remove();
@@ -69,9 +84,30 @@ const MakeTodo = (title) => {
 
 }
 
+//function gatherTodosFromStorage(){
+    
+
 function AddTodo(event) {
-    var input = TodoInput.value
     event.preventDefault();
+
+    var input = TodoInput.value
+    
+    let gatherTodosFromStorage = () => {
+        let todo
+        if (localStorage.setItem(newDate, TodoInput.value) === null){
+           todo = []
+        } else {
+           todo = JSON.parse(localStorage.setItem(newDate, TodoInput.value))
+        }
+    console.log("Data -->", todo)
+    return todo
+    }
+
+    let temp = gatherTodosFromStorage()
+    
+    temp.push(event)
+    console.log(temp)
+
     //console.log('hello add todo')
     // console.log(event.target.className)
     if (event.target.className == "btn btn-danger") {
@@ -79,6 +115,7 @@ function AddTodo(event) {
       //  console.log(TodoInput.value)
      //   console.log(MakeTodo('this is a new todo'));
         ListGroup.appendChild(MakeTodo(input))
+        localStorage.setItem(newDate, input)
         document.querySelector("#emptyList").style.visibility = "hidden"
     }
 }
@@ -87,7 +124,7 @@ function filter(){
 
 }
 
-firstCardBody.addEventListener("keyup", searchUp)
+//firstCardBody.addEventListener("keyup", searchUp)
 
 //console.log(TodoInput.value, firstCardBody);
 
@@ -101,3 +138,6 @@ firstCardBody.addEventListener("keyup", searchUp)
 // }
 
 // const myFunction = a => console.log(a)
+
+
+
