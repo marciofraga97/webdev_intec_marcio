@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+XML is often used for distributing data over the Internet, while HTML is used to display data.
+Those two are completely diferent languages.
+
+HTML uses already predefined tags such as <div>, <body> or <p>.
+While XML doesn't need to use predefined tags, because you create these yourself to store data.
+
+-> Important XML Standards
+
+- XML AJAX
+- XML DOM
+- XML XPath
+- XML XSLT
+- XML XQuery
+- XML DTD
+- XML Schema
+- XML Services
+
+-> Example:
+
+XML's syntax is constructed as a tree with children and subchildren:
+
+-->
+
+<note>
+<to>Marcio</to>
+<from>Fraga</from>
+<heading>Reminder</heading>
+<body>Don't forget me this weekend!</body>
+</note>
+
+

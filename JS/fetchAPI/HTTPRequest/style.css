@@ -1,0 +1,19 @@
+div.d-flex {
+    justify-content: center;
+}
+
+div.card {
+    margin: 10px;
+    width: 500px;
+    position: relative;
+    top: 50%;
+    transform: translateY(40%);
+}
+
+label.form-label{
+    margin: 10px;
+}
+
+label#email, label#email2{
+    margin-top: 0px
+}
