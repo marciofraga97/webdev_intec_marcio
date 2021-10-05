@@ -1,0 +1,74 @@
+{
+  "radios": [
+    {
+      "radio_name": "VRT Radio 1",
+      "streaming_url": "http://icecast.vrtcdn.be/radio1-high.mp3",
+      "id": 1
+    },
+    {
+      "radio_name": "VRT Radio 1 - Classics",
+      "streaming_url": "http://icecast.vrtcdn.be/radio1_classics-high.mp3",
+      "id": 2
+    },
+    {
+      "radio_name": "VRT Radio 1  - De LageLandenLijst",
+      "streaming_url": "http://icecast.vrtcdn.be/radio1_lagelanden-high.mp3",
+      "id": 3
+    },
+    {
+      "radio_name": "VRT Radio 2 Bene Bene",
+      "streaming_url": "http://icecast.vrtcdn.be/radio2_benebene-high.mp3",
+      "id": 4
+    },
+    {
+      "radio_name": "VRT Radio 2 Antwerpen",
+      "streaming_url": "http://icecast.vrtcdn.be/ra2ant-high.mp3",
+      "id": 5
+    },
+    {
+      "radio_name": "VRT Radio 2 Limburg",
+      "streaming_url": "http://icecast.vrtcdn.be/ra2lim-high.mp3",
+      "id": 6
+    },
+    {
+      "radio_name": "VRT Radio 2 Oost-Vlaanderen",
+      "streaming_url": "http://icecast.vrtcdn.be/ra2ovl-high.mp3",
+      "id": 7
+    },
+    {
+      "radio_name": "VRT Radio 2 Vlaams-Brabant",
+      "streaming_url": "http://icecast.vrtcdn.be/ra2vlb-high.mp3",
+      "id": 8
+    },
+    {
+      "radio_name": "VRT Radio 2 West-Vlaanderen",
+      "streaming_url": "http://icecast.vrtcdn.be/ra2wvl-high.mp3",
+      "id": 9
+    },
+    {
+      "radio_name": "VRT Radio 2 Unwind",
+      "streaming_url": "http://icecast.vrtcdn.be/radio2_unwind-high.mp3",
+      "id": 10
+    },
+    {
+      "radio_name": "VRT Klara",
+      "streaming_url": "http://icecast.vrtcdn.be/klara-high.mp3",
+      "id": 11
+    },
+    {
+      "radio_name": "VRT Klara Continuo",
+      "streaming_url": "http://icecast.vrtcdn.be/klaracontinuo-high.mp3",
+      "id": 12
+    },
+    {
+      "radio_name": "VRT Studio Brussel",
+      "streaming_url": "http://icecast.vrtcdn.be/stubru-high.mp3",
+      "id": 13
+    },
+    {
+      "radio_name": "MNM Hits",
+      "streaming_url": "http://icecast.vrtcdn.be/mnm_hits-mid.mp3",
+      "id": 14
+    }
+  ]
+}

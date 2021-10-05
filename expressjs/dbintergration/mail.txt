@@ -1,0 +1,19 @@
+use a temp email address: https://temp-mail.org/fr/ (local personal server only)
+
+Current temporary-trash-email:
+email: marciofraga97@gmail.com
+pass for mongodb login: (use your normal password)
+
+If creating a cluster name (dbname) in mongodb, DON'T ever use space.
+
+dbname: intecbrussel
+dbuser: intec
+dbpass: b04HDOOUgniOvCTE
+
+nodejs_db_url: mongodb://localhost:27017/intecbrussel
+
+info_for_tutorial: https://www.mongodb.com/basics/create-database
+
+Instructions:
+- use <dbs name>
+-

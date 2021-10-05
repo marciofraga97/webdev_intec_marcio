@@ -1,0 +1,90 @@
+---> Comments for the terminal for how to use MongoDB in ExpressJS:
+
+DATABASE (PARENT)
+COLLECTION/TABLE (SUB PARENT)
+DATA (ROWS,COLUMNS)
+
+
+
+
+mongodb database;
+INTECBRUSSEL
+users > table/collection
+users list > DATA
+courses > table/collection
+courses list > DATA
+contact > table/collection
+messages > DATA
+
+
+
+
+# SHOW DATABASES
+- show dbs;
+
+
+
+# SHOW COLLECTIONS OF A DB
+- show collections;
+
+
+
+# Insert data into a collection
+- db.CollectionName.insert({
+username:"root",
+password:"secret7"
+})
+
+
+
+# Find records of a collection
+- db.collectionName.find()
+
+
+
+
+db.createCollection("courses",{
+capped:true,
+size:1024,
+max:100
+})
+
+
+
+
+{"_id":{"$oid":"5ed0d6037978bce736b8dbac"},"name":"Java"}
+
+
+
+db.collectionname.remove({
+name:"Java"
+})
+
+
+
+db.collectionname.remove({})
+
+
+
+db.course.deleteOne( { "_id" : ObjectId("5ed0d60b7978bce736b8dbae") } );
+
+
+
+db.course.find({
+"_id" : ObjectId("5ed0d52bcb30f156ccb419c7")
+})
+
+
+
+// updateOne
+db.course.updateOne(
+{
+"_id" : ObjectId("5ed0d52bcb30f156ccb419c7")
+},
+{
+$set:{
+"name":"NODEJS"
+}
+}
+)
+```

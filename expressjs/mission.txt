@@ -1,0 +1,9 @@
+Express.js // filesystem core module
+
+[
+    {
+
+    }
+]
+
+To create a package.json file in a specific directory, use cd /path/to/package in the terminal, and then start to inject the .json file with npm init --yes.

@@ -1,0 +1,11 @@
+FRONT-END:
+- HTML + HTML5
+- CSS
+
+BACK-END:
+- NodeJS
+- ExpressJS
+
+FULLSTACK:
+- JS
+- ReactJS

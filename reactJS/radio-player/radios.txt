@@ -1,0 +1,27 @@
+POP:
+
+Bel RTL = http://belrtl.ice.infomaniak.ch/belrtl-mp3-192.mp3
+Nostalgie = https://streamingp.shoutcast.com/NostalgiePremium-mp3
+PureFM = https://radios.rtbf.be/pure-128.mp3
+VivaCité Bruxellles = https://radios.rtbf.be/vivabxl-128.mp3
+
+MNM = http://icecast.vrtcdn.be/mnm-high.mp3
+Qmusic = http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_be_live_96.mp3
+Studio Brussel = http://icecast.vrtcdn.be/stubru-high.mp3
+Joe FM = http://icecast-qmusic.cdp.triple-it.nl/JOEfm_be_live_128.mp3
+
+JAZZ:
+
+JAZZ Radio (https://www.jazzradio.fr/radio/webradio)
+- Jazz & Soul: https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3
+- Lounge: https://jazzlounge.ice.infomaniak.ch/jazzlounge-high.mp3
+- Funk: https://jazz-wr06.ice.infomaniak.ch/jazz-wr06-128.mp3
+- Electro Swing: https://jazz-wr04.ice.infomaniak.ch/jazz-wr04-128.mp3
+- Jazz Fusion: https://jazz-radio-fusion.ice.infomaniak.ch/jazz-radio-fusion.mp3
+- Jazz Afro: https://jazz-radio-afro.ice.infomaniak.ch/jazz-radio-afro.mp3
+- Latin Jazz: https://jazz-wr09.ice.infomaniak.ch/jazz-wr09-128.mp3
+- Bossa Nova Radio: http://live.radioart.com/fBosa_nova.mp3
+
+HOUSE
+
+- Deep House Lounge (playlist.asx)

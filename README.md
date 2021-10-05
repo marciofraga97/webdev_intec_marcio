@@ -31,4 +31,7 @@
 * git commit -m "commit Message"
 * git push -u origin main
 
-
+# Node js
+* to open node shell: type "node" only in the terminal.
+* type "node" in terminal and type the filename to see the output of the js file.
+* to exit node shell: ctrl + D

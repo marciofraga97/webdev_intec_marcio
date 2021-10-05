@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    src: url(../fonts/AtkinsonHyperlegible-Regular.ttf);
+}
+
+@font-face {
+    font-family: "StickNoBills";
+    src: url(../fonts/StickNoBills-Medium.ttf);
+}
+
+body {
+    font-family: 'Atkinson Hyperlegible', sans-serif !important;
+    background: black;
+    animation-name: open;
+    animation-duration: 2s;
+}
+
+@keyframes open {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+
+
+/* Navbar */
+.navbar {
+    background: black;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.navbar .container {
+    height: 50px;
+}
+
+.navbar a#cyan.nav-link, .navbar a#magenta.nav-link, .navbar a#yellow.nav-link, .navbar a#black.nav-link, .navbar a#white.nav-link{
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar a#cyan.nav-link:hover {
+    background-color: cyan;
+    transition: 0.5s ease;
+}
+
+.navbar a#magenta.nav-link:hover {
+    background-color: magenta;
+    transition: 0.5s ease;
+}
+
+.navbar a#yellow.nav-link:hover {
+    background-color: yellow;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.navbar a#black.nav-link:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.navbar a#white.nav-link:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.navbar a.nav-link:not(:hover) {
+    transition: 0.5s ease;
+}
+
+.navbar-brand {
+    font-family: "StickNoBills";
+}
+
+.navbar-brand a{
+    color:rgb(255, 215, 180);
+    text-decoration: none;
+}
+
+.navbar .btn {
+    background-color: none;
+}
+
+/* Footer */
+.jumbotron {
+    bottom: 0;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}
+
+.jumbotron .navbar {
+    padding: 0;
+}
+
+.jumbotron .navbar li{
+    display: block;
+}
+
+.jumbotron .navbar li a {
+    color: white;
+}
+
+.jumbotron .navbar li a:hover {
+    text-decoration: none;
+    color: magenta;
+}
+
+.jumbotron .navbar li:nth-child(1) {
+    margin-bottom: 5px;
+}
+
+.jumbotron .col {
+    padding: 20px;
+}
+
+.jumbotron .col:nth-child(2) .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.jumbotron h4 {
+    margin-bottom: 30px;
+}
+
+.jumbotron ul {
+    padding: 0;
+}
+
+.jumbotron #twitter {
+    background-color: #1DA1F2;
+    border-width: 0;
+}
+
+.jumbotron #instagram {
+    background-color: #cd486b;
+    border-width: 0;
+}
+
+.jumbotron #author {
+    color: rgb(83, 83, 83);
+}
+
+/*Homepage*/
+
+#homepage {
+    padding: 30px;
+}
+
+#homepage h1 {
+    color: white;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "register-loginform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon JS/JS/register-loginForm/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

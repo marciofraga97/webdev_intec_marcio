@@ -1,0 +1,94 @@
+{
+    "radios": [
+        {
+            "id": "1",
+            "name": "Bel RTL",
+            "url": "http://belrtl.ice.infomaniak.ch/belrtl-mp3-192.mp3",
+            "img": "https://scontent-rtl.akamaized.net/GED/06040000/6042700/6042758_700x0.webp"
+        },
+        {
+            "id": "2",
+            "name": "Nostalgie FR",
+            "url": "https://streamingp.shoutcast.com/NostalgiePremium-mp3",
+            "img": "https://dbs.radioline.fr/pictures/radio_50ffe787c4cedb8fe718fd9ae9033f3a/logo200.jpg?size=600"
+        },
+        {
+            "id": "3",
+            "name": "Pure FM",
+            "url": "https://radios.rtbf.be/pure-128.mp3",
+            "img": "https://ds1.static.rtbf.be/article/image/1240x800/d/7/0/2d9d3fc7b50345ce69077a6232dffdaa-1539946313.jpg"
+        },
+        {
+            "id": "4",
+            "name": "VivaCité BRU",
+            "url": "https://radios.rtbf.be/vivabxl-128.mp3",
+            "img": "https://marpimagecache.s3.amazonaws.com/image/12_300x170_2020-03-26-09-37-08-205.png"
+        },
+        {
+            "id": "5",
+            "name": "MNM",
+            "url": "http://icecast.vrtcdn.be/mnm-high.mp3",
+            "img": "https://i.pinimg.com/originals/0b/02/d0/0b02d01e53f40d794950819b78e13a95.png"
+        },
+        {
+            "id": "6",
+            "name": "Qmusic",
+            "url": "http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_be_live_96.mp3",
+            "img": "https://pbs.twimg.com/media/CO3OCWcWcAAZkXQ.jpg"
+        },
+        {
+            "id": "7",
+            "name": "Studio Brussel",
+            "url": "http://icecast.vrtcdn.be/stubru-high.mp3",
+            "img": "https://i.pinimg.com/originals/86/47/f4/8647f48d216497fef376e35d26f13b4c.jpg"
+        },
+        {
+            "id": "8",
+            "name": "Joe",
+            "url": "http://icecast-qmusic.cdp.triple-it.nl/JOEfm_be_live_128.mp3",
+            "img": "https://www.esthetieknele.be/wp-content/uploads/2017/09/Logo-JOE-FM.jpg"
+        },
+        {
+            "id": "9",
+            "name": "JR: Jazz & Soul",
+            "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+            "img": "https://upload.wikimedia.org/wikipedia/fr/0/06/Jazz-radio.png"
+        },
+        {
+            "id": "10",
+            "name": "JR: Electro Swing",
+            "url": "https://jazz-wr04.ice.infomaniak.ch/jazz-wr04-128.mp3",
+            "img": "https://www.allzicradio.com/media/radios/sans-titre-0r.jpg"
+        },
+        {
+            "id": "11",
+            "name": "JR: Funk",
+            "url": "https://jazz-wr06.ice.infomaniak.ch/jazz-wr06-128.mp3",
+            "img": "http://api.my-radios.com/images/thumb.php?countryCode=FR&name=195775854.png&size=200"
+        },
+        {
+            "id": "12",
+            "name": "JR: Jazz Afro",
+            "url": "https://jazz-radio-afro.ice.infomaniak.ch/jazz-radio-afro.mp3",
+            "img": "http://www.jazzradio.fr/media/radio/5e578b34e022b-jazzradio-1400x1400-afro.png"
+        },
+        {
+            "id": "13",
+            "name": "JR: Jazz Fusion",
+            "url": "https://jazz-radio-fusion.ice.infomaniak.ch/jazz-radio-fusion.mp3",
+            "img": "https://dbs.radioline.fr/pictures/radio_0d43341e93c18bd01816e7885254a21c/logo200.jpg?size=600"
+        },
+        {
+            "id": "14",
+            "name": "JR: Latin Jazz",
+            "url": "https://jazz-wr09.ice.infomaniak.ch/jazz-wr09-128.mp3",
+            "img": "https://www.allzicradio.com/media/radios/sans-titre-0i.jpg"
+        },
+        {
+            "id": "15",
+            "name": "JR: Lounge",
+            "url": "https://jazzlounge.ice.infomaniak.ch/jazzlounge-high.mp3",
+            "img": "https://www.radio.fr/images/broadcasts/57/e5/7066/3/c300.png"
+        }
+    ]
+}
